@@ -1,0 +1,60 @@
+div{
+    position: relative;
+}
+
+.background{
+    background-image: url("/images/12\,458\,200+\ Horizontal\ Stock\ Illustrations\,\ Royalty-Free\ Vector\ Graphics\ &\ Clip\ Art.jpg");
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sun{
+    height: 250px;
+    width: 250px;
+    
+    display: inline-block;
+    font: inherit;
+    vertical-align: baseline;
+    margin-top: 50px;
+    top: 1px;
+    position: absolute;
+}
+
+.bird{
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    position: fixed;
+    z-index: 5;
+    animation-name: bird;
+    animation-duration: 10s;
+    position: absolute;
+    top: 75px;
+    right: 100px;
+     {
+        
+    }
+
+    
+    
+}
+
+.carr{
+    margin-left: 100px;
+    height: 250px;
+    position: absolute;
+    margin-bottom: 20px;
+    margin-top: 550px;
+}
+
+
+@keyframes .bird {
+    from{transform: translateX(0)}
+    to{transform:translateX(700p)}
+}
